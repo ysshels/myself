@@ -394,5 +394,15 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/bootstrap.js"></script>
+	<script>
+		function detectMobileDevice(ua) {
+			var re =new RegExp(/iPhone|iPod|iPad|Android/)
+			if(re.exec(ua)){
+				return true;
+			}else {
+				return false;
+			}
+		}
+	</script>
 </body>
 </html>
