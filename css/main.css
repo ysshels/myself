@@ -89,10 +89,11 @@ ul.nav.navbar li a.w3ls-icon:hover {
 /*-- //top-nav --*/
 /*-- banner --*/  
 .video {
-	background:url(../images/1.jpg)no-repeat;
+	background:url(../images/66.jpg)no-repeat;
     background-position:0px 0px;
 	text-align: left;
-	min-height: 700px;
+	min-height: 690px;
+    /*width: 100%;*/
 	background-size:cover;
 }
 .banner-text {
